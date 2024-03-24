@@ -17,7 +17,9 @@ Para analizar la diferencia en tiempo de ejecucion cuando se cambia la frecuenci
 Tomamos el tiempo que lleva ejecutar esta instruccion por cada diferente frecuencia de clock.
 ```c
 for (int i = 0; i < 1000; i++) 
-    float result = sqrt(i * 1.0);; 
+{
+    float result = sqrt(i * 1.0);
+}
 ```
 
 Resultado:
