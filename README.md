@@ -7,12 +7,12 @@ En este trabajo se llevara a cabo un profiling con `gprof` en un codigo en C `te
 
 Para ejecutarlo se puede utilizar el script en bash
 ```bash
-$ sh ./RUNPROFILING
+$ sh ./RUNPROFILING.sh
 ```
 
 ---
 
-Para analizar la diferencia en tiempo de ejecucion cuando se cambia la frecuencia del clock, se puede utilizar una ESP8266/ESP32 con el codigo proporcionado `sdc_freqtest`
+Para analizar la diferencia en tiempo de ejecucion cuando se cambia la frecuencia del clock, se puede utilizar una ESP8266/ESP32 con el codigo proporcionado `sdc_freqtest.c`
 
 ```bash
 Time taken at 160MHz: 6925 microseconds
