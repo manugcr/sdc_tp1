@@ -14,7 +14,18 @@ $ sh ./RUNPROFILING.sh
 
 Para analizar la diferencia en tiempo de ejecucion cuando se cambia la frecuencia del clock, se puede utilizar una ESP8266/ESP32 con el codigo proporcionado `sdc_freqtest.c`
 
+Tomamos el tiempo que lleva ejecutar esta instruccion por cada diferente frecuencia de clock.
+```c
+for (int i = 0; i < 1000; i++) 
+    float result = sqrt(i * 1.0);; 
+```
+
+Resultado:
 ```bash
 Time taken at 160MHz: 6925 microseconds
 Time taken at 80MHz: 13855 microseconds
 ```
+
+---
+
+[Informe del practico](https://docs.google.com/document/d/1twKgpK01hXjLlSOI8LOAxweLYvJLnhQyki-HFWw1JMI/edit?usp=sharing)
