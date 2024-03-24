@@ -29,6 +29,7 @@ echo "-> Running profiling"
 gcc -Wall -pg ./src/test_gprof.c ./src/test_gprof_new.c -o ./build/test
 
 # Run the binary
+echo ""
 echo "-> Running the binary..."
 cd build && ./test
 
