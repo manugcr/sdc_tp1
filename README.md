@@ -27,3 +27,5 @@ Resultado:
 Time taken at 160MHz: 6925 microseconds
 Time taken at 80MHz: 13855 microseconds
 ```
+
+[Informe del trabajo](https://docs.google.com/document/d/1twKgpK01hXjLlSOI8LOAxweLYvJLnhQyki-HFWw1JMI/edit?usp=sharing)
