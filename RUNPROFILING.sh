@@ -34,22 +34,22 @@ echo "-> Running the binary..."
 cd build && ./test
 
 # Run gprof 
-gprof test gmon.out > ./output/analysis.txt
+gprof test gmon.out > ../output/analysis.txt
 
 # Run gprof with different flags
-gprof -a test gmon.out > ./output/analysis_a.txt
-gprof -b test gmon.out > ./output/analysis_b.txt
-gprof -p test gmon.out > ./output/analysis_p.txt
+gprof -a test gmon.out > ../output/analysis_a.txt
+gprof -b test gmon.out > ../output/analysis_b.txt
+gprof -p test gmon.out > ../output/analysis_p.txt
 
 # Print the analysis
 echo ""
-head ./output/analysis.txt
+head ../output/analysis.txt
 
 # Create the image from the profiling with gprof2dot
 echo ""
 echo "-> Creating the image..."
-gprof2dot ./output/analysis.txt > ./output/analysis.dot
-dot -Tpng ./output/analysis.dot -o ./output/analysis.png
+gprof2dot ../output/analysis.txt > ../output/analysis.dot
+dot -Tpng ../output/analysis.dot -o ../output/analysis.png
 
 # Run perf
 echo ""
